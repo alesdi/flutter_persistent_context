@@ -1,0 +1,17 @@
+name: persistent_context
+description: A Flutter widget that provides a simple and synchronous interface to store persistent variables, relying on shared preferences under the hood
+version: 0.0.1
+repository: https://github.com/alessandrodiano/flutter_persistent_context
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  shared_preferences: ^2.0.6
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
